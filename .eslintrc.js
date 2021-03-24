@@ -14,6 +14,9 @@ module.exports = {
     ecmaVersion: 2020,
   },
   rules: {
+    '@typescript-eslint/ban-ts-comment': 'off',
+    '@typescript-eslint/ban-ts-ignore': 'off',
+    '@typescript-eslint/no-explicit-any': 'off',
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
   },
